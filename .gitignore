@@ -1,0 +1,29 @@
+# Maven build output
+target/
+
+# Compiled Java files
+*.class
+
+# WAR/deployment files
+*.war
+
+# Backups
+*.bak
+students_backup/
+
+# IDE files
+.classpath
+.project
+.settings/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Tomcat/runtime configuration
+context.xml
+
+# Local configuration / secrets
+*.properties
+.env
