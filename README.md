@@ -167,20 +167,6 @@ Browser → Proxy Server → App Server (JDBC) → Amazon RDS (MySQL)
 ```
 Java-Three-Tier-Student-Management-Project/
 │
-├── src/
-│   └── com/srk/
-│       ├── dao/
-│       │   └── StudentDAO.java
-│       └── servlet/
-│           ├── RegistrationController.java
-│           ├── ViewStudents.java
-│           ├── EditStudent.java
-│           ├── SaveEditedStudent.java
-│           └── DeleteStudent.java
-│
-├── vo/
-│   └── Student.java
-│
 ├── WebContent/
 │   ├── index.jsp
 │   ├── home.jsp
@@ -188,6 +174,21 @@ Java-Three-Tier-Student-Management-Project/
 │       └── web.xml
 │
 ├── screenshots/
+│
+├── src/
+│   ├── com/srk/
+│   │   ├── dao/
+│   │   │   └── StudentDAO.java
+│   │   └── servlet/
+│   │       ├── RegistrationController.java
+│   │       ├── ViewStudents.java
+│   │       ├── EditStudent.java
+│   │       ├── SaveEditedStudent.java
+│   │       └── DeleteStudent.java
+│   │
+│   └── vo/
+│       └── Student.java
+│
 ├── pom.xml
 ├── .gitignore
 └── README.md
